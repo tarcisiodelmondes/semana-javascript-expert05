@@ -25,11 +25,11 @@ Esse projeto foi desenvolvido durante a semana JavaScript Expert 5
 
 - Web App
 
-  - [] Deve listar arquivos baixados
-  - [] Deve permitir fazer upload de arquivos de qualquer tamanho
-  - [] Deve ter função de upload via botão
-  - [] Deve exibir progresso de upload
-  - [] Deve ter função de upload via drag and drop
+  - [x] Deve listar arquivos baixados
+  - [x] Deve permitir fazer upload de arquivos de qualquer tamanho
+  - [x] Deve ter função de upload via botão
+  - [x] Deve exibir progresso de upload
+  - [x] Deve ter função de upload via drag and drop
 
   <a id="creditos"></a>
 
