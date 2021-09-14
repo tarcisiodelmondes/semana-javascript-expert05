@@ -25,7 +25,6 @@ export default class AppController {
   onProgress({ processedAlready, filename }) {
     const file = this.uploadingFiles.get(filename);
     const alreadyProcessed = Math.ceil((processedAlready / file.size) * 100);
-    console.log(alreadyProcessed, file.size);
 
     this.updateProgress(file, alreadyProcessed);
 
@@ -38,11 +37,13 @@ export default class AppController {
     const uploadingFiles = this.uploadingFiles;
     file.percent = percent;
 
+    const totalSize = uploadingFiles.size;
+
     const total = [...uploadingFiles.values()]
       .map(({ percent }) => percent ?? 0)
       .reduce((total, current) => total + current, 0);
 
-    this.viewManager.updateStatus(total);
+    this.viewManager.updateStatus(Math.round(total / totalSize));
   }
 
   async onFileChange(files) {

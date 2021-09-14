@@ -39,8 +39,6 @@ export default class ViewManager {
 
   updateStatus(size) {
     const sizeFormatted = Math.floor(size).toFixed(2);
-    console.log('Test', sizeFormatted);
-
     this.output.innerHTML = `Uploading in <b>${sizeFormatted}%</b>`;
     this.progressBar.value = size;
   }
