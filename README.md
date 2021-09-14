@@ -38,7 +38,7 @@ Esse projeto foi desenvolvido durante a semana JavaScript Expert 5
 
 ## Desafios
 
-- Wev API
+- Web API
 
   - [ ] Salvar arquivos na AWS usando o S3 + Lambda
   - [ ] Implementar testes para novas funcionalidades
