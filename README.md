@@ -3,8 +3,6 @@
 Esse projeto foi desenvolvido durante a semana JavaScript Expert 5
 
 <a href="#features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#desafios">Desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#demonstracao">Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#pre-requisitos">Pré-requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#creditos">Créditos ao Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -33,24 +31,6 @@ Esse projeto foi desenvolvido durante a semana JavaScript Expert 5
   - [x] Deve ter função de upload via botão
   - [x] Deve exibir progresso de upload
   - [x] Deve ter função de upload via drag and drop
-
-<a id="desafios"></a>
-
-## Desafios
-
-- Web API
-
-  - [ ] Salvar arquivos na AWS usando o S3 + Lambda
-  - [ ] Implementar testes para novas funcionalidades
-
-- Web App
-  - [ ] Implementar testes com 100% coverage
-
-<a id="demonstracao"></a>
-
-## Demonstração da aplicação
-
-Acesse: [https://gdriver-front-js.herokuapp.com/](https://gdriver-front-js.herokuapp.com/)
 
 <a id="pre-requisitos"></a>
 
